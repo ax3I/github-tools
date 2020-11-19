@@ -20,4 +20,5 @@ def get_pr_list():
     # print list without brackets
     print(', '.join(map(str, pr_list)))
 
-get_pr_list()
+if __name__ == "__main__":
+    get_pr_list()
